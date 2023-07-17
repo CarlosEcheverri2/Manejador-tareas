@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+h1{
+  color: tomato;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
 }
